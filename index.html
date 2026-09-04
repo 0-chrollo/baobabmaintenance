@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baobab Maintenance Group| Gauteng </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <nav>
+        <div class="logo">
+            <img src="dube-logo.png" alt="Logo">
+            <span class="logo-title"></span>
+          </div>
+      
+        <button class="menu-toggle" id="toggle" aria-label="Toggle menu">
+          <span>Menu</span>
+          <div class="bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      
+        <div class="nav-links" id="navLinks">
+           <a href="index.html">Home <i class="fa fa-angle-right"></i></a>
+            <a href="services.html">Our Work<i class="fa fa-angle-right"></i></a>
+            <div class="nav-cta-wrap">
+              <a href="contact.html" class="nav-cta"> Get A Quote </a>
+            </div>
+          </div>
+      </nav>
+
+      
+
+
+
+      
+      
+      <section class="hero">
+        <div>
+     
+      </div>
+      
+        <h1>Thatch Roofing & Lapas</h1>
+        <p>Dube Thatchers brings skilled craftsmanship to every roof we build. From new thatch roofing and lapa construction to rethatching, brushing, patching, and fire retardant treatment with SABS-approved certification, we deliver clean, durable, professional finishes backed by quality materials. </p>
+        <div class="hero-btns">
+          <a href="contact.html" class="btn btn-fill">GET A QUOTE</a>
+          <a href="projects.html" class="btn btn-line">OUR WORK</a>
+        </div>
+      </section>
+      
+      <section class="stats">
+        <div class="stats-left">
+          <h2>Trusted Thatch Roofing Craftsmanship</h2>
+          <p>Dube Thatchers delivers top quality thatch roofing, lapa construction, and rethatching, backed by skilled craftsmanship, SABS-approved fire retardant treatment, and a guarantee of customer satisfaction on every job.</p>
+          <a href="projects.html" class="btn btn-fill" style="background:#040d28;color:#e5e5e5; border-radius: 25px;;">Our Work</a>
+        </div>
+        <div class="stats-right">
+          <img src="wbg3.webp" alt="Thatch roofing and lapa construction work">
+        </div>
+      </section>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+
+
+<style>
+    
+    
+    
+    .magic
+     {
+      
+   background: #0a1126;
+      padding: 25px 25px;
+    }
+
+    .services-section {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .services-eyebrow {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #5c5c5c;
+      margin-bottom: 8px;
+    }
+
+    .services-heading {
+      font-size: 20px;
+      font-weight: 600;
+      color: #ffd900;
+      margin-bottom: 10px;
+    }
+
+    .services-desc {
+      font-size: 14px;
+      color: #dbdbdb;
+      max-width: 420px;
+      line-height: 1.65;
+      margin-bottom: 36px;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .card {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      height: 360px;
+      cursor: pointer;
+      background: #1a1a1a;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.04);
+    }
+
+    .card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.78) 0%,
+        rgba(0, 0, 0, 0.20) 55%,
+        rgba(0, 0, 0, 0.05) 100%
+      );
+    }
+
+    .card-label {
+      position: absolute;
+      bottom: 22px;
+      left: 22px;
+      right: 22px;
+    }
+
+    .card-label span {
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .card-label span svg {
+      flex-shrink: 0;
+      opacity: 0.85;  
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 580px) {
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        height: 230px;
+      }
+
+      .services-heading {
+        font-size: 22px;
+      }
+    }
+
+</style>
+
+<div class="magic">
+  
+      <section class="services-section">
+      
+        <h2 class="services-heading">Our services for your vehicle</h2>
+        <p class="services-desc">From accurate fault diagnosis to full electrical repairs and routine maintenance, we provide dependable automotive solutions that keep your vehicle safe, reliable, and performing at its best.</p>
+    
+        <div class="cards-grid">
+    
+          <!-- Card 1 -->
+          <div class="card">
+            <img src="assets/enginespecialist.jpg" alt="Vehicle Diagnostics" />
+            <div class="card-overlay"></div>
+            <div class="card-label">
+              <span>
+                Engine Specialist Services
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="card">
+            <img src="assets/majorminor.jpg" alt="Auto Electrical Repairs" />
+            <div class="card-overlay"></div>
+            <div class="card-label">
+              <span>
+                Minor & Major Vehicle Repairs
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="card">
+            <img src="assets/gearboxesand.jpg" alt="General Vehicle Maintenance" />
+            <div class="card-overlay"></div>
+            <div class="card-label">
+              <span>
+                Engines & Gearboxes
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+           <!-- Card 3 -->
+           <div class="card">
+            <img src="assets/injectorsand.jpg" alt="General Vehicle Maintenance" />
+            <div class="card-overlay"></div>
+            <div class="card-label">
+              <span>
+                Injectors & Turbochargers
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 3l5 5-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+</div>
+
+
+
+
+
+<style>
+    
+      
+    .why-section {
+      background: #ffffff;
+      width: 100%;
+      padding: 35px 20px;
+    }
+  
+    .why-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .why-eyebrow {
+      color: rgb(240, 202, 9) ;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0 0 12px;
+    }
+  
+    .why-title {
+      color: #080a44;
+      font-size: 34px;
+      font-weight: 700;
+      margin: 0 0 50px;
+    }
+  
+    .why-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 45px 50px;
+    }
+  
+    .why-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: rgb(249, 217, 6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 18px;
+    }
+  
+    .why-icon i {
+      font-size: 18px;
+      color: #100b61;
+    }
+  
+    .why-card-title {
+      color: rgb(23, 17, 80) ;
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin: 0 0 12px;
+    }
+  
+    .why-card-text {
+      color: #222737;
+      font-size: 15px;
+      line-height: 1.7;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  
+    @media (max-width: 768px) {
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+  
+      .why-title {
+        font-size: 26px;
+      }
+    }
+  </style>
+
+  
+<section class="why-section">
+    <div class="why-container">
+      <p class="why-eyebrow">Why choose us</p>
+      <h2 class="why-title">What sets us apart</h2>
+  
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-certificate"></i></div>
+          <h3 class="why-card-title">SABS-approved fire retardant</h3>
+          <p class="why-card-text">Every roof we treat is fitted with fire retardant and backed by a SABS-approved certificate, giving you peace of mind and compliance for insurance purposes.</p>
+        </div>
+  
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-hard-hat"></i></div>
+          <h3 class="why-card-title">Skilled & reliable team</h3>
+          <p class="why-card-text">Our skilled and reliable team is committed to delivering exceptional craftsmanship, ensuring precision and durability in every project.</p>
+        </div>
+  
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <h3 class="why-card-title">Quality thatching grass</h3>
+          <p class="why-card-text">We supply and use only top quality thatching grass for a clean, neat, and professional finish that stands the test of time.</p>
+        </div>
+  
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-map-marked-alt"></i></div>
+          <h3 class="why-card-title">Serving all of KZN</h3>
+          <p class="why-card-text">From homes to lodges and lapas, we proudly serve clients across KwaZulu-Natal, guaranteeing quality work on every project we take on.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="https://wa.me/27780501740" target="_blank" class="whatsapp-widget" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <footer class="footer">
+    <div class="footer-container">
+        
+        <!-- Company Info -->
+        <div class="footer-section">
+          <div class="foo">
+            <div class="foo-icon"><img src="dube-logo.png"></div> 
+          </div>
+  
+          <style>
+            .foo {
+              display: flex;
+              align-items: center;
+            }
+  
+            .foo-icon img {
+                padding:5px;
+              width: 7rem;
+             background-color: #dddddd;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          </style>
+  
+          <br>
+  
+          <p>
+            Dube Thatchers specializes in thatch roofing and lapa construction for projects of every scale.
+            From rethatching to brushing, patching, and fire retardant treatment, we deliver quality, precision, and reliability backed by skilled craftsmanship across KwaZulu-Natal.
+          </p>
+          
+          <h3 style="margin-top: 1.5rem;">Follow Us</h3>
+          <div class="social-links">
+            <a href="PASTE_FACEBOOK_URL_HERE" target="_blank" class="social-icon" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="footer-section-lu">
+          <h5>Quick Links</h5>
+          <br>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Our Work</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+  
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <div class="contact-inf">
+  
+            <div class="contact-item">
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <a class="col" href="https://wa.me/27780501740">078 050 1740</a>
+            </div>
+  
+            <div class="contact-item">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <a class="col" href="mailto:Dubethatching@gmail.com">Dubethatching@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <span>Serving all of KwaZulu-Natal</span>
+            </div>
+  
+          </div>
+        </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2026 Dube Thatchers. All rights reserved.</p>
+    </div>  
+
+  </footer>
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
