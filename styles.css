@@ -344,8 +344,8 @@
      /* ===== FOOTER STYLES ===== */
       /* ===== FOOTER STYLES ===== */
       .footer {
-        background: rgb(222, 193, 3);
-        color: rgb(19, 9, 87);
+        background:rgb(13, 6, 56);
+        color: rgb(255, 221, 0);
         padding: 3rem 1rem 1.5rem;
     }
     
@@ -358,14 +358,14 @@
     }
     
     .footer-section h3 {
-        color:rgb(19, 9, 87);
+        color: rgb(255, 221, 0);
         font-size: 0.85rem;
         margin-bottom: 1rem;
     }
     
     .footer-section p,
     .footer-section-lu a {
-        color:rgb(19, 9, 87);
+        color: rgb(199, 198, 194);
         line-height: 1.5;
         text-decoration: none;
         font-size: 0.85rem;
@@ -392,7 +392,7 @@
     }
     
     .contact-item {
-      color: rgb(19, 9, 87);
+      color: rgb(255, 255, 255);
         font-size: 0.95rem;
         display: flex;
         align-items: center;
@@ -401,7 +401,7 @@
     .col{
       padding:3px;
       text-decoration: none;
-      color: rgb(19, 9, 87);
+      color: rgb(255, 255, 255);
     }
     .emergency-number {
  
@@ -425,8 +425,8 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background:rgb(19, 9, 87);
-        color: rgb(85, 58, 27) ;
+        background: rgb(255, 221, 0);
+        color: rgb(24, 29, 134) ;
         transition: all 0.3s ease;
         text-decoration: none;
     }
@@ -446,7 +446,7 @@
         padding-top: 1.5rem;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         text-align: center;
-        color: rgb(19, 9, 87);
+        color:  rgb(223, 223, 223);
         font-size: 0.875rem;
     }
     
