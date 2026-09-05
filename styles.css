@@ -75,7 +75,7 @@
 
 
     nav {
-        background:white;
+        background:rgb(8, 17, 52);
         padding: 0 32px;
         display: flex;
         align-items: center;
@@ -115,7 +115,7 @@
         cursor: pointer;
         font-size: 0.75rem;
         font-weight: 700;
-        color:#0a1126;
+        color:#e2e2e2;
         letter-spacing: 0.03em;
       }
       
@@ -129,7 +129,7 @@
         display: block;
         width: 22px;
         height: 3px;
-        background: #0a1126;
+        background: #d1d1d2;
         transition: all 0.3s ease;
       }
       
@@ -147,8 +147,9 @@
         display: grid;
         grid-template-rows: 0fr;
         flex-direction: column;
-        background: #ffffff;
+        background: rgb(8, 17, 52);
         position: absolute;
+        color: #fdfdfd;
         top: 70px;
         left: 0;
         right: 0;
@@ -172,11 +173,11 @@
         align-items: center;
         margin: 0 28px;
         padding: 18px 0;
-        color: #02162e;
+        color: #f2f2f2;
         text-decoration: none;
         font-weight: 500;
         font-size: 0.80rem;
-        border-bottom: 1px solid #e8e8e8;
+        
         transition: color 0.2s;
       }
       
