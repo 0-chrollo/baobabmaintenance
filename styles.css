@@ -27,13 +27,13 @@
        text-decoration:none;
        }
   .btn-fill {
-     background:rgb(255, 217, 0);
+     background:#eda704;
      color:#0b1e34; 
     }
   .btn-line { border:2px solid #fff; color:#fff; }
 
   /* STATS */
-  .stats { background:rgb(222, 193, 3); color:#091d3a; display:flex; flex-wrap:wrap; align-items:center; padding:50px 8%; }
+  .stats { background:#eda704; color:#091d3a; display:flex; flex-wrap:wrap; align-items:center; padding:50px 8%; }
   .stats-left { flex:1 1 300px; padding-right:30px; }
   .stats-left h4 { font-size:20px; margin-bottom:10px; }
   .stats-left h2 { font-size:36px; margin-bottom:15px; }
@@ -208,8 +208,8 @@
       }
       
       .nav-cta {
-        background: #0a1126;
-        color: #ffffff !important;
+        background: #eda704;
+        color: #0b1f6d !important;
         border: 3px solid #d4d4d4;
         padding: 11px 28px !important;
         border-radius: 999px !important;

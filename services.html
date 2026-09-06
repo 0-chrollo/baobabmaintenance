@@ -51,6 +51,269 @@
           <a href="projects.html" class="btn btn-line">OUR WORK</a>
         </div>
       </section>
+
+
+<style>
+
+
+  .services{
+    max-width:1180px;
+    margin:0 auto;
+    padding:96px 32px 104px;
+  }
+
+  .services__head{
+    max-width:640px;
+    margin-bottom:64px;
+  }
+
+
+
+  .services__head h2{
+    margin:0 0 14px;
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:clamp(32px, 4vw, 46px);
+    line-height:1.15;
+    color:#0a254d;
+  }
+
+  .services__head p.sub{
+    margin:0;
+    font-size:16px;
+    line-height:1.6;
+    color:#373737;
+  }
+
+  /* --- the row, divided by rootlike rules instead of cards --- */
+
+  .services__row{
+    display:flex;
+    align-items:stretch;
+  }
+
+  .service{
+    flex:1 1 0;
+    padding:0 28px;
+    position:relative;
+  }
+
+  .service:first-child{ padding-left:0; }
+  .service:last-child{ padding-right:0; }
+
+  /* vertical divider between columns, root-like taper */
+  .service + .service::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:6px;
+    bottom:6px;
+    width:1px;
+    background:linear-gradient(to bottom, transparent, #C79A3E 18%, #C79A3E 82%, transparent);
+  }
+
+  .service__icon{
+    width:30px;
+    height:30px;
+    margin-bottom:22px;
+    color:#0a254d;
+  }
+  .service__icon svg{
+    width:100%;
+    height:100%;
+    stroke:currentColor;
+    fill:none;
+    stroke-width:1.5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+
+  .service h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:20px;
+    margin:0 0 16px;
+    color:#0a254d;
+  }
+
+  .service ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+
+  .service li{
+    position:relative;
+    padding-left:16px;
+    margin-bottom:10px;
+    font-size:14.5px;
+    line-height:1.5;
+    color:#878787;
+  }
+
+  .service li::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:8px;
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#ffaa00;
+  }
+
+  /* ---------- responsive ---------- */
+
+  @media (max-width: 980px){
+    .services__row{
+      flex-wrap:wrap;
+      row-gap:44px;
+    }
+    .service{
+      flex:1 1 calc(33.333% - 0px);
+      min-width:240px;
+    }
+    .service + .service::before{ display:none; }
+    .service:nth-child(3n+1)::before{ display:none; }
+    .service:not(:nth-child(3n+1))::before{
+      content:"";
+      position:absolute;
+      left:0; top:6px; bottom:6px; width:1px;
+      background:linear-gradient(to bottom, transparent, #C79A3E 18%, #C79A3E 82%, transparent);
+    }
+  }
+
+  @media (max-width: 640px){
+    .services{ 
+        padding:15px 24px 80px; 
+    
+    }
+    .services__row{ display:block; }
+    .service{
+      padding:0 0 32px;
+      margin-bottom:32px;
+      border-bottom:1px solid rgba(199,154,62,0.4);
+    }
+    .service:last-child{
+      border-bottom:none;
+      margin-bottom:0;
+      padding-bottom:0;
+    }
+    .service::before{ display:none !important; }
+  }
+
+  #knot{
+font-size: 4rem;
+color:rgb(255, 196, 0);
+  }
+</style>
+
+
+<section class="services">
+
+  <div class="services__head">
+
+    <h2>Built for the long term <span id="knot">.</span></h2>
+    <p class="sub">Baobab Services handles every trade a property needs, from the first foundation to the maintenance call years later serving homes and businesses across Gauteng.</p>
+  </div>
+
+  <div class="services__row">
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M4 11L12 4l8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></svg>
+      </div>
+      <h3>Construction</h3>
+      <ul>
+        <li>New builds</li>
+        <li>Extensions</li>
+        <li>Renovations</li>
+        <li>Plastering</li>
+        <li>Tiling &amp; painting</li>
+        <li>Roofing &amp; more</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M7 3v4"/><path d="M4 5h6"/><path d="M12 7c0 3-4 4-4 8a4 4 0 0 0 8 0c0-4-4-5-4-8z"/></svg>
+      </div>
+      <h3>Plumbing</h3>
+      <ul>
+        <li>Installations</li>
+        <li>Repairs</li>
+        <li>Leak detection</li>
+        <li>Geyser installs</li>
+        <li>Bathrooms</li>
+        <li>Kitchens</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+      </div>
+      <h3>Electrical</h3>
+      <ul>
+        <li>Installations</li>
+        <li>Fault finding</li>
+        <li>DB boards</li>
+        <li>COC certificates</li>
+        <li>Maintenance</li>
+        <li>Upgrades</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M4 20h16"/><path d="M6 20V9l6-4 6 4v11"/><path d="M10 20v-6h4v6"/></svg>
+      </div>
+      <h3>Concrete work</h3>
+      <ul>
+        <li>Foundations</li>
+        <li>Slabs</li>
+        <li>Driveways</li>
+        <li>Floors</li>
+        <li>Retaining walls</li>
+        <li>Finishes</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M8 3h8l2 5v11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8z"/><path d="M6 9h12"/></svg>
+      </div>
+      <h3>Water tanks</h3>
+      <ul>
+        <li>Supply</li>
+        <li>Installation</li>
+        <li>Connections</li>
+        <li>Pumps</li>
+        <li>Maintenance</li>
+      </ul>
+    </div>
+
+    <div class="service">
+      <div class="service__icon">
+        <svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2-2z"/></svg>
+      </div>
+      <h3>Maintenance</h3>
+      <ul>
+        <li>Home &amp; business</li>
+        <li>General repairs</li>
+        <li>Gate motors</li>
+        <li>CCTV</li>
+        <li>Property upkeep</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
       
 <script src="scripts.js">
 
