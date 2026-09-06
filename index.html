@@ -414,39 +414,72 @@
   </style>
 
   
-<section class="why-section">
-    <div class="why-container">
-      <p class="why-eyebrow">Why choose us</p>
-      <h2 class="why-title">What sets us apart</h2>
+<style>
+  .services-list-container {
+      background-color: #eeeeee;
+      border-radius: 8px;
+      padding: 25px;
+      margin: 0px 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
   
-      <div class="why-grid">
-        <div class="why-card">
-          <div class="why-icon"><i class="fas fa-certificate"></i></div>
-          <h3 class="why-card-title">Quality materials guaranteed</h3>
-          <p class="why-card-text">Every job is completed using quality materials and proper workmanship, giving you peace of mind and lasting results for your home or business.</p>
-        </div>
+  .services-list-container h2{
+      color: #e7a726;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 22px;
+  }
+
+  .para{
+      color: #383839;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 16px;
+  }
   
-        <div class="why-card">
-          <div class="why-icon"><i class="fas fa-hard-hat"></i></div>
-          <h3 class="why-card-title">Skilled & reliable team</h3>
-          <p class="why-card-text">Our skilled and reliable team is committed to delivering exceptional craftsmanship, ensuring precision and durability in every construction, plumbing, and electrical project.</p>
-        </div>
+  .services-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  }
   
-        <div class="why-card">
-          <div class="why-icon"><i class="fas fa-handshake"></i></div>
-          <h3 class="why-card-title">Honest & affordable service</h3>
-          <p class="why-card-text">We keep our pricing competitive and our service honest, delivering a clean, neat, and professional finish that stands the test of time.</p>
-        </div>
+  .service-item {
+      background-color: white;
+      border-left: 4px solid #f6b93b;
+      padding: 15px;
+      width: calc(33.33% - 20px);
+      min-width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
   
-        <div class="why-card">
-          <div class="why-icon"><i class="fas fa-map-marked-alt"></i></div>
-          <h3 class="why-card-title">Serving all of Gauteng</h3>
-          <p class="why-card-text">From homes to businesses and construction sites, we proudly serve clients across Gauteng, guaranteeing quality work on time, every time.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-      
+  .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .service-item h3 {
+      color: #132266;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 18px;
+  }
+  
+  .service-item p {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+      .service-item {
+          width: 100%;
+      }
+  }
+</style>
+
      
 
 
@@ -459,7 +492,42 @@
 
 
 
-
+<div class="services-list-container">
+  <h2> Why Choose us</h2>
+  <p class="para">From new builds to plumbing, electrical, and concrete work, Baobab Maintenance Group delivers reliable, professional solutions for your home, business, and construction needs across Gauteng.</p>
+</br >
+ <div class="services-flex">
+     <div class="service-item">
+         <h3><i class="fas fa-hammer"></i> Construction</h3>
+         <p>New builds, extensions, renovations, plastering, tiling, painting, and roofing, all completed with skilled craftsmanship and quality materials.</p>
+     </div>
+     
+     <div class="service-item">
+         <h3><i class="fas fa-faucet"></i> Plumbing</h3>
+         <p>Installations, repairs, leak detection, geyser installations, and bathroom and kitchen plumbing handled by an experienced team.</p>
+     </div>
+     
+     <div class="service-item">
+         <h3><i class="fas fa-bolt"></i> Electrical</h3>
+         <p>Installations, fault finding, DB boards, COC certificates, maintenance, and upgrades carried out safely and to code.</p>
+     </div>
+     
+     <div class="service-item">
+         <h3><i class="fas fa-trowel"></i> Concrete Work</h3>
+         <p>Foundations, slabs, driveways, floors, retaining walls, and finishes built to last for homes, businesses, and construction sites.</p>
+     </div>
+     
+     <div class="service-item">
+         <h3><i class="fas fa-water"></i> JoJo Tanks</h3>
+         <p>Supply, installation, connections, pumps, and maintenance for reliable water storage solutions on any property.</p>
+     </div>
+     
+     <div class="service-item">
+         <h3><i class="fas fa-tools"></i> Maintenance</h3>
+         <p>Home and business repairs, gate motors, CCTV, and general property maintenance to keep everything running smoothly.</p>
+     </div>
+ </div>
+</div>
 
 
 
