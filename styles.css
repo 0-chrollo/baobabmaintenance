@@ -75,7 +75,7 @@
 
 
     nav {
-        background:rgb(8, 17, 52);
+        background:rgb(5, 7, 19);
         padding: 0 32px;
         display: flex;
         align-items: center;
@@ -147,7 +147,7 @@
         display: grid;
         grid-template-rows: 0fr;
         flex-direction: column;
-        background: rgb(8, 17, 52);
+        background: rgb(6, 9, 23);
         position: absolute;
         color: #fdfdfd;
         top: 70px;
@@ -345,8 +345,8 @@
      /* ===== FOOTER STYLES ===== */
       /* ===== FOOTER STYLES ===== */
       .footer {
-        background:rgb(13, 6, 56);
-        color: rgb(255, 221, 0);
+        background:rgb(6, 9, 23);
+        color: #eda704;
         padding: 3rem 1rem 1.5rem;
     }
     
@@ -359,7 +359,7 @@
     }
     
     .footer-section h3 {
-        color: rgb(255, 221, 0);
+        color: #eda704;
         font-size: 0.85rem;
         margin-bottom: 1rem;
     }
@@ -426,7 +426,7 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background: rgb(255, 221, 0);
+        background:#eda704;
         color: rgb(24, 29, 134) ;
         transition: all 0.3s ease;
         text-decoration: none;
